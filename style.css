@@ -1,0 +1,371 @@
+*{
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+.clearfixt::after {
+    content: "";
+    display: block;
+    clear: both; 
+
+}
+
+.wrapper {
+    overflow: hidden;
+    min-width: 1050px;
+    min-height: 100%;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+
+    list-style: none;
+}
+
+.header {
+    background: url(img/Layer1.jpg) center no-repeat ;
+    background-size: 100% 100%;
+  
+    max-height:688px;
+}
+.heade-top {
+    
+}
+.mine-nav {
+    list-style: none;
+    padding-left: 0px;
+      text-indent: 0px;
+      text-align: right;
+      margin-top:38px; 
+}
+
+.mine-nav li {
+    margin-left: 0px;
+    display: inline-block;
+    
+}
+
+.menu, .header-logo,.story-button,.story-text, .promo, .form-reg {
+    float: left;
+    width: 50%%;
+}
+
+.header-logo{
+    margin-right: 300px;
+    margin-top:38px; 
+}
+
+.mine-nav a{
+    font-family: Montserrat;
+    color:  #1b1b1b;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none; 
+    display: block;
+    margin-top:;
+   padding: 11px 15px;
+}
+
+.mine-nav a:hover{
+    border-radius: 5px;
+    background-color:  #d03958;
+    width:;
+    height;
+    color:  #ffffff;
+    text-decoration: none;
+    padding: 11px 15px;
+    display: block;
+}
+
+.promo {
+    
+    width: 495px;
+    float: left;
+}
+
+.promo h2::first-line {
+    color:  #d03958;
+    
+}
+
+.promo h2 {
+    font-family: Montserrat;
+color:  #161616;
+font-size: 90px;/* Приближение из-за подстановки шрифтов */
+font-weight: 700;
+line-height: 80px;/* Приближение из-за подстановки шрифтов */
+text-align: left;
+
+}
+p,  li {
+    font-family: PTSerif;
+color:  #161616;
+font-size: 20px;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+line-height: 28px;/* Приближение из-за подстановки шрифтов */
+
+}
+
+form {
+        border-radius: 5px;
+        background-color:  #d03958;
+        text-align: center;
+        padding: 33px 24px;
+        width: 400px;
+        height: 520px;
+}
+
+form p {
+    font-family: Montserrat;
+color:  #ffffff;
+font-size: 22px;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+text-align: center;
+}
+
+input[type=text]{
+    border: none;
+    border-radius: 5px;
+background-color:  #ffffff;
+width: 353px;
+height: 57px;
+    padding: 19px;
+    margin-bottom: 16px;
+    display: block;
+}
+
+input[type="checkbox"]{
+    border: none;
+    border-radius: 5px;
+background-color:  #ffffff;
+width: 19px;
+height: 18px;
+}
+
+label {  
+font-family: PTSerif;
+color:  #ffffff;
+font-size: 20px;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+line-height: 25px;/* Приближение из-за подстановки шрифтов */
+text-align: left;
+}
+
+input[type=submit] {
+    border: none;
+    border-radius: 5px;
+    background-color:  #161616;
+    width: 353px;
+    height: 57px;
+    display: block;
+}
+
+input[type=submit], .pricing .btn:hover, .story .btn:hover {
+    font-family: Montserrat;
+    color:  #ffffff;
+    font-size: 22px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: center;
+}
+
+h2{
+    font-family: Montserrat;
+    color:  #161616;
+font-size: 50px;/* Приближение из-за подстановки шрифтов */
+font-weight: 700;
+line-height: 80px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+
+}
+
+.services h2 {
+    font-family: Couture;
+    text-align: left;
+}
+
+.pink-text{
+    color:  #d03958;
+}
+
+
+
+.services-item p {
+    text-align: center;
+}
+.services-item {
+    width: 200px;
+    padding-top: 180px;
+    text-align: center;
+    display: inline-block;
+}
+
+.services-clock {
+ background: url(img/Shape%2097.png) top center no-repeat;
+    width: 150px;
+}
+
+.services-lamp {
+    background: url(img/Shape%20106.png) top center no-repeat;
+    width: 116px;
+}
+
+.services-heart {
+    background: url(img/Shape%20108.png) top center no-repeat;
+    width: 163px;
+}
+
+.services-tools {
+    background: url(img/Shape%20127.png) top center no-repeat;
+    width: 137px;
+}
+
+.story {
+    background-color:  #d03958;
+}
+
+.story p {
+    color: #ffffff;
+    width: 605px;
+    
+} 
+
+.story .btn {
+    border: none;
+    width: 269px;
+    height: 64px;
+    
+}
+
+.btn {
+    border-radius: 4px;
+    background-color:  #e3d5b8;
+}
+
+.pricing {
+    background-color:  #e3d5b8;
+height: 537px;
+}
+
+.pricing-item {
+    border-radius: 5px;
+background-color:  #ffffff;
+    vertical-align: bottom;
+    width: 318px;
+height: 389px;
+    text-align: center;
+    display: inline-block;
+}
+
+.pricing .btn, .pricing a {
+    width: 205px;
+    height: 49px;
+    text-decoration: none;
+    color:  #161616;
+    text-align: center;
+    display: block;
+}
+
+.cost{
+    font-family: Montserrat;
+font-size: 60px;/* Приближение из-за подстановки шрифтов */
+font-weight: 700;
+line-height: 80px;
+    
+}
+
+ul .btn:hover, .story .btn:hover {
+    background-color:  #d03958;
+}
+
+.testimonial{
+    vertical-align: top;
+    width: 550px;
+    height: 500px;
+    display: inline-block;
+}
+
+.testimonial img {
+    border-radius: 50px;
+    width: 105px;
+    height: 105px;
+    
+}
+
+.back-color {
+    border-radius: 5px;
+background-color:  #e3d5b8;
+    padding: 26px;
+width: 439px;
+height: 142px;
+}
+
+.man {
+    position: absolute;
+    left: 458px; 
+    top: 2076px;
+}
+.boy {
+    position: absolute;
+    left: 466px;
+    top: 2275px;
+}
+
+.gallery{
+    vertical-align: top;
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    
+}
+
+.gallery-block {
+    width: 350px;
+    height: 225px;
+
+}
+
+.gallery li {
+    display: inline-block;
+   width: 105px;
+height: 105px;
+    border-radius: 105px;
+}
+
+.gallery img {
+    border-radius: 105px;
+       width: 105px;
+height: 105px;
+}
+
+.footer {
+background-color:  #161616;
+min-width: 1050px;
+height: 183px;
+margin-top: -183px
+}
+
+.footer p {
+    color: #ffffff;
+    display: inline-block;
+}
+
+.wrapper::after {
+    content: "";
+    display: block;
+    height: 183px;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1010px;
+}
