@@ -36,12 +36,13 @@ li {
   
     max-height:688px;
 }
+
 .heade-top {
     
 }
 .mine-nav {
-    list-style: none;
-    padding-left: 0px;
+      list-style: none;
+      padding-left: 0px;
       text-indent: 0px;
       text-align: right;
       margin-top:38px; 
@@ -73,7 +74,7 @@ li {
     text-decoration: none; 
     display: block;
     margin-top:;
-   padding: 11px 15px;
+    padding: 11px 15px;
 }
 
 .mine-nav a:hover{
@@ -100,19 +101,19 @@ li {
 
 .promo h2 {
     font-family: Montserrat;
-color:  #161616;
-font-size: 90px;/* Приближение из-за подстановки шрифтов */
-font-weight: 700;
-line-height: 80px;/* Приближение из-за подстановки шрифтов */
-text-align: left;
+    color:  #161616;
+    font-size: 90px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 80px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
 
 }
 p,  li {
     font-family: PTSerif;
-color:  #161616;
-font-size: 20px;/* Приближение из-за подстановки шрифтов */
-font-weight: 400;
-line-height: 28px;/* Приближение из-за подстановки шрифтов */
+    color:  #161616;
+    font-size: 20px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 28px;/* Приближение из-за подстановки шрифтов */
 
 }
 
@@ -127,18 +128,18 @@ form {
 
 form p {
     font-family: Montserrat;
-color:  #ffffff;
-font-size: 22px;/* Приближение из-за подстановки шрифтов */
-font-weight: 400;
-text-align: center;
+    color:  #ffffff;
+    font-size: 22px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: center;
 }
 
 input[type=text]{
     border: none;
     border-radius: 5px;
-background-color:  #ffffff;
-width: 353px;
-height: 57px;
+    background-color:  #ffffff;
+    width: 353px;
+    height: 57px;
     padding: 19px;
     margin-bottom: 16px;
     display: block;
@@ -147,18 +148,18 @@ height: 57px;
 input[type="checkbox"]{
     border: none;
     border-radius: 5px;
-background-color:  #ffffff;
-width: 19px;
-height: 18px;
+    background-color:  #ffffff;
+    width: 19px;
+    height: 18px;
 }
 
 label {  
-font-family: PTSerif;
-color:  #ffffff;
-font-size: 20px;/* Приближение из-за подстановки шрифтов */
-font-weight: 400;
-line-height: 25px;/* Приближение из-за подстановки шрифтов */
-text-align: left;
+    font-family: PTSerif;
+    color:  #ffffff;
+    font-size: 20px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 25px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
 }
 
 input[type=submit] {
@@ -181,9 +182,9 @@ input[type=submit], .pricing .btn:hover, .story .btn:hover {
 h2{
     font-family: Montserrat;
     color:  #161616;
-font-size: 50px;/* Приближение из-за подстановки шрифтов */
-font-weight: 700;
-line-height: 80px;/* Приближение из-за подстановки шрифтов */
+    font-size: 50px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 80px;/* Приближение из-за подстановки шрифтов */
     text-align: center;
 
 }
@@ -210,7 +211,7 @@ line-height: 80px;/* Приближение из-за подстановки ш�
 }
 
 .services-clock {
- background: url(img/Shape%2097.png) top center no-repeat;
+    background: url(img/Shape%2097.png) top center no-repeat;
     width: 150px;
 }
 
@@ -253,15 +254,15 @@ line-height: 80px;/* Приближение из-за подстановки ш�
 
 .pricing {
     background-color:  #e3d5b8;
-height: 537px;
+    height: 537px;
 }
 
 .pricing-item {
     border-radius: 5px;
-background-color:  #ffffff;
+    background-color:  #ffffff;
     vertical-align: bottom;
     width: 318px;
-height: 389px;
+    height: 389px;
     text-align: center;
     display: inline-block;
 }
@@ -277,9 +278,9 @@ height: 389px;
 
 .cost{
     font-family: Montserrat;
-font-size: 60px;/* Приближение из-за подстановки шрифтов */
-font-weight: 700;
-line-height: 80px;
+    font-size: 60px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 80px;
     
 }
 
@@ -303,10 +304,10 @@ ul .btn:hover, .story .btn:hover {
 
 .back-color {
     border-radius: 5px;
-background-color:  #e3d5b8;
+    background-color:  #e3d5b8;
     padding: 26px;
-width: 439px;
-height: 142px;
+    width: 439px;
+    height: 142px;
 }
 
 .man {
@@ -336,22 +337,22 @@ height: 142px;
 
 .gallery li {
     display: inline-block;
-   width: 105px;
-height: 105px;
+    width: 105px;
+    height: 105px;
     border-radius: 105px;
 }
 
 .gallery img {
     border-radius: 105px;
-       width: 105px;
-height: 105px;
+    width: 105px;
+    height: 105px;
 }
 
 .footer {
-background-color:  #161616;
-min-width: 1050px;
-height: 183px;
-margin-top: -183px
+    background-color:  #161616;
+    min-width: 1050px;
+    height: 183px;
+    margin-top: -183px
 }
 
 .footer p {
